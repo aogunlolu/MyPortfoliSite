@@ -65,8 +65,8 @@ const Header = styled.div`
   width: 100%;
   height:780px;
 
-  ${smallScreens({padding:"30px 70px", height:"550px"})}
-  ${tablets({padding:"30px 50px", height:"420px"})}
+  ${smallScreens({padding:"30px 70px", height:"550px"})} 
+  ${tablets({padding:"30px 50px", height:"450px"})}  
   ${mobile({padding:"30px 20px",height:"100%", gap:"10px"})}
 `
 const Containertext= styled.div`
