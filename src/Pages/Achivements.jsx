@@ -37,17 +37,17 @@ const Achivements = () => {
             </div> 
             <div className="project-box">
                 <a href="https://abigrow-movie-app.netlify.app"><img src={Movieapp} alt="movie-app"/></a>
-                <a href="https://abigrow-movie-app.netlify.app"><p>Built with HTML and CSS</p></a>
+                <a href="https://abigrow-movie-app.netlify.app"><p>Built with React</p></a>
                 <p>Movie App</p>
             </div>
             <div className="project-box">
                 <a href="https://abi-admin-dashboard.netlify.app/"><img src={Admin} alt="dashboard"/></a>
-                <a href="https://abi-admin-dashboard.netlify.app/"><p>Built with HTML, CSS and Bootstrap</p></a>
+                <a href="https://abi-admin-dashboard.netlify.app/"><p>Built with React and TailwindCSS</p></a>
                 <p>Admin Dashboard</p>
             </div>
             <div className="project-box">
                 {/* <a href="#"><img src="../Asset/Tech365.png" alt="" width="350px" height="350px"></a> */}
-                <a href="#"><p>Built with HTML and CSS</p></a>
+                <a href="#"><p>Built with React</p></a>
                 <p>Web Development</p>              
             </div>
         </div>
