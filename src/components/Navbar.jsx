@@ -54,13 +54,18 @@ const Nav = styled.div`
  
     ${mobile({padding: "21.4px 20px", fontSize:"18px"})}
 
-    
-  .list{
+   ul{
+display: flex;
+
+    ${tablets({display:"none"})}
+   } 
+  
+    .list{
     text-decoration: none;
     color: white;
     padding: 0 20px;
 
-    ${tablets({display:"none"})}
+   
   }
 
   .icon{

@@ -50,19 +50,22 @@ position: fixed;
       width: 300px;
     }
   }
-
+  
 ul{
   display: grid;
   text-align: center;
-
+  
+  ${tablets({display:"grid"})}
   
 }
 .list{
-  text-decoration: none;
+    text-decoration: none;
     color: white;
     line-height: 3;
-    
-    ${tablets({display:"block"})}
+    display:"grid"
+
+
+    ${tablets({display:"grid"})}
     
 }
   
