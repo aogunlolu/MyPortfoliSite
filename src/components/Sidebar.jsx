@@ -37,7 +37,8 @@ position: fixed;
   top: 0;
   right: 0;
   width: 50%;
-
+  z-index: 1000;
+  
   animation: showSidebar 1s;
 
   @keyframes showSidebar {
@@ -52,22 +53,19 @@ position: fixed;
   }
   
 ul{
-  display: grid;
+  display: block;
   text-align: center;
   
-  ${tablets({display:"grid"})}
+  ${tablets({display:"block"})}
   
 }
 .list{
     text-decoration: none;
     color: white;
     line-height: 3;
-    display:"grid"
+    display:"grid";
 
-
-    ${tablets({display:"grid"})}
-    
-}
-  
+    ${tablets({display:"block"})} 
+}  
 `
 export default Sidebar

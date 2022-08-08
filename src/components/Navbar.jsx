@@ -8,6 +8,7 @@ import { tablets, mobile, smallScreens } from '../Responsive';
 
 
 const Navbar = () => {
+ const activeStyle = {color: "red"}
 
   const [sidebar, setSideBar] = useState(false);
 
@@ -16,13 +17,13 @@ const Navbar = () => {
     <>
     <Nav>
         <h4>Abigail Ogunlolu</h4>
-        <ul>
-            <Link to="/" className='list'>Home</Link>
-            <Link to="/about" className='list'>About</Link>
-            <Link to="/services" className='list'>Services</Link>
-            <Link to="/achievement" className='list'>Achivements</Link>          
-            <Link to="contact" className='list'>Contact Me</Link>
-            </ul>
+        <div className="menu-list">
+            <Link to="/" className='list-nav' activeStyle={activeStyle}>Home</Link>
+            <Link to="/about" className='list-nav'>About</Link>
+            <Link to="/services" className='list-nav'>Services</Link>
+            <Link to="/achievement" className='list-nav'>Achivements</Link>          
+            <Link to="contact" className='list-nav'>Contact Me</Link>
+            </div>
         <FiMenu className="icon"
         onClick={showSiderBar}
         style={{
@@ -54,13 +55,13 @@ const Nav = styled.div`
  
     ${mobile({padding: "21.4px 20px", fontSize:"18px"})}
 
-   ul{
-display: flex;
+   .menu-list{
+      display: flex;
 
-    ${tablets({display:"none"})}
+      ${tablets({display:"none"})}
    } 
   
-    .list{
+    .list-nav{
     text-decoration: none;
     color: white;
     padding: 0 20px;

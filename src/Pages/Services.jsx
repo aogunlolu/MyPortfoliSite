@@ -16,7 +16,7 @@ const Services = () => {
   return (
     <>
     <Section>
-        <div class="logo"> 
+        <div className="logo"> 
            <img src={ReactLogo} alt="" />  
            <img src={CSSlogo} alt="logo" />
            <img src={HTMLlogo} alt="logo" />
@@ -25,23 +25,23 @@ const Services = () => {
            <img src={bootstap} alt="logo" />
         </div>
         <Article>
-        <div class="service-main">
+        <div className="service-main">
             <h2>Services</h2>
             <h6>Awesome Features</h6>
         </div> 
-        <div class="services-box">
-            <div class="box-1">
-                <div class="box">
+        <div className="services-box">
+            <div className="box-1">
+                <div className="box">
                     <BsLaptop className="icon"/>
                     <h3>Web Design</h3>
                     <p>Assess UX /UI designs for technical feasibility.</p>
                 </div>
-                <div class="box">
+                <div className="box">
                     <AiOutlineFolderOpen className="icon"/>
                     <h3>Web Development</h3>
                     <p>Create Web Application from high fidelity wireframe.</p>
                 </div>
-                <div class="box">
+                <div className="box">
                     <BiMobileAlt className="icon"/>
                     <h3>Fully Responsive</h3>
                     <p>User friendly</p>
@@ -65,6 +65,7 @@ const Section = styled.div`
     ${mobile({fontSize:"18px"})}
         
     }
+
    .logo{
        display: flex;
        flex-wrap: wrap;
