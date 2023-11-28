@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
-import tech365 from "../Assest/project1.jpeg"
+import tech365 from "../Assest/tech365.jpg"
 import tanta from "../Assest/tanta.jpg"
 import Syncskills from "../Assest/Syncskills.jpg"
 import furnitureSite from "../Assest/funiturre.png"
 import Admin from "../Assest/admin-dashboard.png"
 import { mobile, tablets} from '../Responsive';
+import bikerAnalysis from "../Assest/Biker_sales_analysis.png"
 
 
 
@@ -20,6 +21,11 @@ const Achivements = () => {
             <h6>Projects</h6>
       </div> 
         <div className="project-link">
+          <div className="project-box">
+                <a href="https://public.tableau.com/app/profile/abigail.ogunlolu7584/viz/Bikesalesrevenue/BikeSalesReport"><img src={bikerAnalysis}alt="biker analysis"/></a>
+                <a href="https://public.tableau.com/app/profile/abigail.ogunlolu7584/viz/Bikesalesrevenue/BikeSalesReport"><p>Built with Tableau</p></a>
+               <p>Biker Sales Analysis</p>
+            </div>
           <div className="project-box">
                 <a href="https://tantainnovatives.com/"><img src={tanta}alt="Tanta Innovative"/></a>
                 <a href="https://tantainnovatives.com/"><p>Built with React and Javascript</p></a>
@@ -83,7 +89,7 @@ const Section = styled.div`
 
 img{
   width: 100%;
-  height: 340px;
+  height: 100%;
 }
 
 }
