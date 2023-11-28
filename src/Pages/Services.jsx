@@ -33,8 +33,8 @@ const Services = () => {
             <div className="box-1">
                 <div className="box">
                     <BsLaptop className="icon"/>
-                    <h3>Web Design</h3>
-                    <p>Assess UX /UI designs for technical feasibility.</p>
+                    <h3>Data Analysis</h3>
+                    <p>Query, Data cleansing, Data Modelling and Visualization.</p>
                 </div>
                 <div className="box">
                     <AiOutlineFolderOpen className="icon"/>

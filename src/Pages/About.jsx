@@ -6,6 +6,7 @@ import {BiPlayCircle} from "react-icons/bi";
 import {AiTwotonePhone, AiOutlineMail} from "react-icons/ai";
 import {FaMapMarker} from "react-icons/fa";
 import { mobile, tablets, smallScreens } from '../Responsive';
+import my_resume from '../Assest/Ogunlolu Abigail.pdf';
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
     <Header>
       <Containertext>
         <h1>Abigail Ajoke Ogunlolu</h1>
+        <h3>Finance/ Data Analyst.</h3>
         <h3>Frontend Developer.</h3>
         <div className="icon">
           <p>Watch The Space</p>
@@ -31,10 +33,11 @@ const About = () => {
         <div className="section1-about">
           <h1>About Me</h1>
           <h3>I am Abigail Ogunlolu</h3>
-          <h4>Frontend Developer</h4>
+          <h4>Financial Data Analyst</h4>
         </div>            
-            <p>I am a frontend developer with the skills and training needed to help develop and maintain software programs and to make improvements that will enhance functionality. My technical skills are HTML, CSS, JavaScript, ES6, Tailwind and ReactJs. </p><br />
-            <p>I have been drawn to both creativity and analytical side of development and passionate for responsive website design and a firm believer in the mobile-first approach, the move towards increasing inclusivity and diversity in the industry through representation is of importance to me. Coding has become a passion and I love seeing the results of my efforts helping the user's experience.</p><br />
+            <p>I am a seasoned Accountant with over four years of professional experience, complemented by a keen aptitude for Financial Technologies focused on delivering inventive solutions within the realm of finance. </p><br />
+            <p>Throughout my career, I have excelled in roles involving Receivables analysis, Payables management, Reconciliation, Financial Statement preparation, Data analysis, and Web development. My diverse skill set encompasses proficiency in various technologies, including Excel, SQL, Tableau, JavaScript, HTML, CSS, Tailwind CSS, React.js, and GitHub, which I have strategically employed to consistently achieve outstanding results..</p><br/>
+            <p>In this portfolio, I have included a variety of projects that showcase my data analytics skills. You will find links of the dashboards and reports I have created using various tools such as Tableau and Excel. These projects demonstrate my ability to analyze and present data in a clear and visually appealing way, making it easy for decision makers to understand the insights and take action.</p>
             <div className="mobile">
                 <AiTwotonePhone className="icon"/>
                 <p>+234-814-2312-641</p>
@@ -45,9 +48,16 @@ const About = () => {
             </div>
             <div className="map">
                 <FaMapMarker className="icon"/>
-                <p>19 Gbenga Lawal, Baruwa, Ipaja. Lagos</p>
-            </div>    
-            <button>Download Resume</button>
+                <p>Lagos, Nigeria</p>
+            </div> 
+          <a
+            href={my_resume}
+            download="Ogunlolu Abigail's Resume"
+            target="_blank"
+            rel="noreferrer" >
+              <button>Download Resume</button>
+          </a>   
+         
         </div>    
     </Section>                     
     
@@ -139,8 +149,9 @@ ${tablets({display:"grid", padding:"30px 20px"})}
       width: 80%;
       border-radius: 100%;
       padding-top: 20px;
+      
 
-      ${tablets({width:"100%"})}
+      ${tablets({display:"none"})}
     }
   }
 

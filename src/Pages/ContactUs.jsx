@@ -22,7 +22,7 @@ const ContactUs = () => {
           </div>
           <div className="contact-area">
           <FaMapMarker className="icon"/>
-            <p>19 Gbenga Lawal, Baruwa, Ipaja. Lagos</p>
+            <p>Lagos, Nigeria</p>
           </div>  
         </div>
         <div className="contact-r">
@@ -34,7 +34,10 @@ const ContactUs = () => {
             <label>Message:</label>
             <textarea name="" id="" cols="120" rows="5"></textarea>      
           </form>
-          <button>Submit</button> 
+          <a href="mailto:ogunloluajoke@gmail.com">
+            <button type='submit'>Submit</button>
+          </a>
+           
         </div>
         </Form>
     </Section>    

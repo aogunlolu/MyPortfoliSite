@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import tech365 from "../Assest/project1.jpeg"
+import tanta from "../Assest/tanta.jpg"
+import Syncskills from "../Assest/Syncskills.jpg"
 import sanbox from "../Assest/project2.png"
 import furnitureSite from "../Assest/funiturre.png"
 import Movieapp from "../Assest/Movieapp.png"
@@ -20,35 +22,30 @@ const Achivements = () => {
             <h6>Projects</h6>
       </div> 
         <div className="project-link">
-            <div className="project-box">
-                <a href="https://aogunlolu.github.io/technew/HTML/index.html"><img src={tech365}alt="tech365"/></a>
-                <a href="https://aogunlolu.github.io/technew/HTML/index.html"><p>Built with HTML and CSS</p></a>
-                <p>School App</p>
+          <div className="project-box">
+                <a href="https://tantainnovatives.com/"><img src={tanta}alt="Tanta Innovative"/></a>
+                <a href="https://tantainnovatives.com/"><p>Built with React and Javascript</p></a>
+               <p>Tanta Inovatives Website</p>
             </div>
             <div className="project-box">
-                <a href="https://aogunlolu.github.io/sandbox/HTML/index.html"><img src={sanbox} alt="sandbox"/></a>
-                <a href="https://aogunlolu.github.io/sandbox/HTML/index.html"><p>Built with HTML, CSS and Bootstrap</p></a>
-                <p>Web Development</p>
+                <a href="https://www.syncskills.com.au/"><img src={Syncskills}alt="Syncskills"/></a>
+                <a href="hhttps://www.syncskills.com.au/"><p>Built with React and Tailwind</p></a>
+             <p>SyncSkills Website</p>
+            </div>
+            <div className="project-box">
+                <a href="https://tech365.ng/"><img src={tech365}alt="tech365"/></a>
+                <a href="https://tech365.ng/"><p>Built with HTML and CSS</p></a>
+           <p>Tech365 Website</p>
             </div>
             <div className="project-box">
                 <a href="https://furniturrr.netlify.app/"><img src={furnitureSite} alt="furnituresite"/></a>
                 <a href="https://furniturrr.netlify.app/"><p>Built with React</p></a>
-                <p>Furniture App</p>
+                <p>Furniture Website</p>
             </div> 
-            <div className="project-box">
-                <a href="https://abigrow-movie-app.netlify.app"><img src={Movieapp} alt="movie-app"/></a>
-                <a href="https://abigrow-movie-app.netlify.app"><p>Built with React</p></a>
-                <p>Movie App</p>
-            </div>
             <div className="project-box">
                 <a href="https://abi-admin-dashboard.netlify.app/"><img src={Admin} alt="dashboard"/></a>
                 <a href="https://abi-admin-dashboard.netlify.app/"><p>Built with React and TailwindCSS</p></a>
                 <p>Admin Dashboard</p>
-            </div>
-            <div className="project-box">
-                {/* <a href="#"><img src="../Asset/Tech365.png" alt="" width="350px" height="350px"></a> */}
-                <a href="#"><p>Built with React</p></a>
-                <p>Web Development</p>              
             </div>
         </div>
     </Section>     
