@@ -3,9 +3,7 @@ import styled from 'styled-components';
 import tech365 from "../Assest/project1.jpeg"
 import tanta from "../Assest/tanta.jpg"
 import Syncskills from "../Assest/Syncskills.jpg"
-import sanbox from "../Assest/project2.png"
 import furnitureSite from "../Assest/funiturre.png"
-import Movieapp from "../Assest/Movieapp.png"
 import Admin from "../Assest/admin-dashboard.png"
 import { mobile, tablets} from '../Responsive';
 
