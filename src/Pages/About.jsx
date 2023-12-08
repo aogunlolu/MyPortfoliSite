@@ -37,10 +37,10 @@ const About = () => {
         </div>            
             <p>I am a seasoned Accountant with over four years of professional experience, complemented by a keen aptitude for Financial Technologies focused on delivering inventive solutions within the realm of finance. </p><br />
             <p>Throughout my career, I have excelled in roles involving Receivables analysis, Payables management, Reconciliation, Financial Statement preparation, Data analysis, and Web development. My diverse skill set encompasses proficiency in various technologies, including Excel, SQL, Tableau, JavaScript, HTML, CSS, Tailwind CSS, React.js, and GitHub, which I have strategically employed to consistently achieve outstanding results..</p><br/>
-            <p>In this portfolio, I have included a variety of projects that showcase my data analytics skills. You will find links of the dashboards and reports I have created using various tools such as Tableau and Excel. These projects demonstrate my ability to analyze and present data in a clear and visually appealing way, making it easy for decision makers to understand the insights and take action.</p>
+            <p>In this portfolio, I have included a variety of projects that showcase my data analytics and web development skills. You will find links of the dashboards and reports I have created using Tableau and Excel. These projects demonstrate my ability to analyze and present data in a clear and visually appealing way, making it easy for decision makers to understand the insights and take action.</p>
             <div className="mobile">
                 <AiTwotonePhone className="icon"/>
-                <p>+234-814-2312-641</p>
+                <p>+234-805-9084-550</p>
             </div>
             <div className="mail">
                 <AiOutlineMail className="icon"/>  

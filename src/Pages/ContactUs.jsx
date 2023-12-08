@@ -17,6 +17,10 @@ const ContactUs = () => {
             <p>+234-814-2312-641</p>
           </div>
           <div className="contact-area">
+            <AiTwotonePhone className="icon"/>
+             <p>+234-805-9084-550</p>
+          </div>
+          <div className="contact-area">
           <AiOutlineMail className="icon"/>    
             <a href="mailto: ogunloluajoke@mail.com">ogunloluajoke@gmail.com</a>
           </div>
