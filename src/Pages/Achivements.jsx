@@ -7,7 +7,7 @@ import furnitureSite from "../Assest/funiturre.png"
 import Admin from "../Assest/admin-dashboard.png"
 import { mobile, tablets} from '../Responsive';
 import bikerAnalysis from "../Assest/Biker_sales_analysis.png"
-
+import financeAnalysis from "../Assest/Finance.png"
 
 
 
@@ -21,6 +21,11 @@ const Achivements = () => {
             <h6>Projects</h6>
       </div> 
         <div className="project-link">
+           <div className="project-box">
+                <a href="https://public.tableau.com/app/profile/abigail.ogunlolu7584/viz/FinancialAnalyticsreport_17017926541130/ProfitLossAnalysis"><img src={financeAnalysis}alt="Financial analysis"/></a>
+                <a href="https://public.tableau.com/app/profile/abigail.ogunlolu7584/viz/FinancialAnalyticsreport_17017926541130/ProfitLossAnalysis"><p>Built with Tableau</p></a>
+               <p>Financial Analysis Report</p>
+            </div>
           <div className="project-box">
                 <a href="https://public.tableau.com/app/profile/abigail.ogunlolu7584/viz/Bikesalesrevenue/BikeSalesReport"><img src={bikerAnalysis}alt="biker analysis"/></a>
                 <a href="https://public.tableau.com/app/profile/abigail.ogunlolu7584/viz/Bikesalesrevenue/BikeSalesReport"><p>Built with Tableau</p></a>
@@ -38,7 +43,7 @@ const Achivements = () => {
             </div>
             <div className="project-box">
                 <a href="https://tech365.ng/"><img src={tech365}alt="tech365"/></a>
-                <a href="https://tech365.ng/"><p>Built with HTML and CSS</p></a>
+                <a href="https://tech365.ng/"><p>Built with React and Javascript</p></a>
            <p>Tech365 Website</p>
             </div>
             <div className="project-box">
